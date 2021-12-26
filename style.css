@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+body{
+  background-image: linear-gradient(to left, lightgray, whitesmoke);
+}
+
+h1{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+.firstTitle{
+  margin-top: 10vh;
+}
+
+.matrix{
+  margin-top: 10vh;
+  width: 300px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 50vh;
+}
