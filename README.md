@@ -1,5 +1,5 @@
 # Portfóloio
 
-Portfólio para apresentação dos projetos realizados durante o curso da Labenu. Site com pequena explicação sobre os projetos e link para os mesmos.
+Portfólio para apresentação e avaliação de projetos realizados por mim, com intuito de exame para possíveis contratações.
 
->Link do portfólio: http://quick-spot.surge.sh/
+>Link do portfólio: Atualizando para exposição de novos projetos.
