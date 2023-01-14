@@ -1,17 +1,17 @@
-<!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
+import './App.css'
+import EcommercePic from './img/Ecommerce.png'
+import ServicosPic from './img/achei_servicos.png'
+import LabebankPic from './img/labebank.png'
+import RestricoesPic from './img/Restricoes-de-acesso.png'
+
+
+
+function App() {
+  return (
+    <div>
       <h1>Portfólio</h1>
-    </header>
-    <section>
-      <h3 class="firstTitle">Flamarion França</h3>
-      <div class="firstContent">
+      <h3 className='firstTitle'>Flamarion França</h3>
+      <div className='firstContent'>
         Sou desenvolvedor web e mobile fullstack junior em busca de experiência profissional,
         e este site representa o portfólio dos meus principais projetos.
         São aplicativos mobile, frontend, backend, fullstack e API's.
@@ -20,67 +20,68 @@
         à medida que vou estudando e adquirindo mais conhecimento na área, por isso esse portfólio estará em
         constante atualização tanto no aprimoramento dos projetos que já apresento aqui como no acréscimo de outros ao longo do tempo.
       </div>
-      <div class="matrixContainer">
-        <div class="matrix">
+      <div className='matrixContainer'>
+
+        <div className="matrix">
           <a href="https://e-commerce-p17g.onrender.com" target="_blank">E-commerce (frontend)</a>
-            <br>
-            <img src="img/Ecommerce.png" width="300"
-            alt="imagem do app Ecommerce">
+            <br/>
+            <img src={EcommercePic} width="300"
+            alt="imagem do app Ecommerce"/>
           <div class="matrixTxt">
             App que simula um pequeno marketplace, com filtragem de por valor e carrinho para adicionar os produtos.
-            <br><br>
+            <br/><br/>
             <a href="https://github.com/Gazua300/E-commerce" target="_blank">
               Respositório
             </a>
           </div>
         </div>
 
-        <div class="matrix">
+        <div className="matrix">
           <a href="https://loja-de-servicos.onrender.com/" target="_blank">Loja de Serviços(fullstack)</a>
-            <br>
-            <img src="img/achei_servicos.png" width="300"
-            alt="imagem do app loja de serviços">
+            <br/>
+            <img src={ServicosPic} width="300"
+            alt="imagem do app loja de serviços"/>
           <div class="matrixTxt">
-            Projeto fullstack de app para cadastramento e divulgação de serviços diversos:<br><br>
+            Projeto fullstack de app para cadastramento e divulgação de serviços diversos:<br/><br/>
             <a href="https://play.google.com/store/apps/details?id=com.gazua300.acheiservicos" target="_blank">
               Versão mobile no google play
-            </a><br>
+            </a><br/>
             <a href="https://github.com/Gazua300/achei_servicos-server" target="_blank">
               Repositório
             </a>
           </div>
         </div>
 
-        <div class="matrix">
+        <div className="matrix">
           <a href="https://labebank-frontend.vercel.app/" target="_blank">Fakebank (fullstack)</a>
-            <br>
-            <img src="img/labebank.png" width="300" alt="imagem do app labebank">
+            <br/>
+            <img src={LabebankPic} width="300" alt="imagem do app labebank"/>
           <div class="matrixTxt">
             Aplicativo para operações bancárias. Simula as mais básicas operações como saldo, extrato,pagamentos e transfereências.
-            <br><br>
+            <br/><br/>
             <a href="https://github.com/Gazua300/labebank" target="_blank">
               Repositório
             </a>
           </div>
         </div>
 
-        <div class="matrix">
+        <div className="matrix">
           <a href="https://documenter.getpostman.com/view/11884929/Uz5KkEQM" target="_blank">Restrições de acesso (backend, API)</a>
-            <br>
-            <img src="img/Restricoes-de-acesso.png" width="300"
-            alt="">
+            <br/>
+            <img src={RestricoesPic} width="300"
+            alt=""/>
           <div class="matrixTxt">
             API com endpoints para guardar informações pessoais, sobre educação e experiências profissionais
             dos usuários. As informações tem acesso restrito através de um token que é gerado
             ao criar a conta e quando é realizado o login.
-            <br><br>
+            <br/><br/>
           <a href="https://github.com/Gazua300/Restricoes-de-acesso" target="_blank">
             Repositório
           </a>
           </div>
         </div>
 
-        <!-- <div class="matrix">
+        {/* <div class="matrix">
           <a href="https://portfolio-labenu.herokuapp.com/" target="_blank">Ifuture (frontend)</a>
             <br>
             <img src="img/ifuture.png" width="300"
@@ -93,13 +94,15 @@
             Repositório
           </a>
           </div>
-        </div> -->
+        </div> */}
 
       </div>
-    </section>
-    <footer>
-      &copy Gazua Dev Center<br>
-      <!-- <a href="https://github.com/Gazua300" target="_blank">Github</a> | <a href="https://www.instagram.com/gazua300/" target="_blank">Instagram</a> -->
+      <footer>
+      Gazua Dev Center<br/>
+      {/* <a href="https://github.com/Gazua300" target="_blank">Github</a> | <a href="https://www.instagram.com/gazua300/" target="_blank">Instagram</a> */}
     </footer>
-  </body>
-</html>
+    </div>
+  );
+}
+
+export default App;
