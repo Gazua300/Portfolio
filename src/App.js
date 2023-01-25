@@ -3,6 +3,7 @@ import EcommercePic from './img/Ecommerce.png'
 import ServicosPic from './img/achei_servicos.png'
 import LabebankPic from './img/labebank.png'
 import RestricoesPic from './img/Restricoes-de-acesso.png'
+import Ifuture from './img/feed.jpeg'
 
 
 
@@ -84,7 +85,27 @@ function App() {
           </a>
           </div>
         </div>
-      </div>
+
+        <div className="matrix">
+          <a href="" target="_blank">Ifuture (mobile)</a>
+            <br/>
+            <img src={Ifuture} width="300" height='400' 
+            alt="imagem do app labebank"/>
+          <div class="matrixTxt">
+            Aplicativo fictício que simula um sistema de solicitação e 
+            entrega alimentos para restaurantes cadastrados
+            <br/><br/>
+            <a href='https://play.google.com/store/apps/details?id=com.gazua300.ifuture' target='_blank'>
+              Google play
+            </a>
+            <br/>
+            <a href="https://github.com/Gazua300/labefood_mobile" target="_blank">
+              Repositório
+            </a>
+          </div>
+        </div>
+
+      </div>      
       <footer>
       Gazua Dev Center<br/>
       {/* <a href="https://github.com/Gazua300" target="_blank">Github</a> | <a href="https://www.instagram.com/gazua300/" target="_blank">Instagram</a> */}
