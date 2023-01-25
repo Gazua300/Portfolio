@@ -59,6 +59,10 @@ function App() {
           <div class="matrixTxt">
             Aplicativo para operações bancárias. Simula as mais básicas operações como saldo, extrato,pagamentos e transfereências.
             <br/><br/>
+            <a href='https://play.google.com/store/apps/details?id=com.gazua300.fakebank' target='_blank'>
+              Versão mobile no google play
+            </a>
+            <br/>
             <a href="https://github.com/Gazua300/labebank" target="_blank">
               Repositório
             </a>
@@ -80,22 +84,6 @@ function App() {
           </a>
           </div>
         </div>
-
-        {/* <div class="matrix">
-          <a href="https://portfolio-labenu.herokuapp.com/" target="_blank">Ifuture (frontend)</a>
-            <br>
-            <img src="img/ifuture.png" width="300"
-            alt="">
-          <div class="matrixTxt">
-            Aplicativo que simula serviços de pedido e entrega de comidas, lanches e bebidas. O usuário tem à disposição uma lista com
-            várias lojas do ramo de alimentos e bebidas, cada uma com seu cardápio para realizar os pedidos. 
-            <br><br>
-          <a href="https://github.com/Gazua300/labefood" target="_blank">
-            Repositório
-          </a>
-          </div>
-        </div> */}
-
       </div>
       <footer>
       Gazua Dev Center<br/>
