@@ -87,7 +87,7 @@ function App() {
         </div>
 
         <div className="matrix">
-          <a href="" target="_blank">Ifuture (mobile)</a>
+          <a href="https://github.com/Gazua300/labefood_mobile" target="_blank">Ifuture (mobile)</a>
             <br/>
             <img src={Ifuture} width="300" height='400' 
             alt="imagem do app labebank"/>
