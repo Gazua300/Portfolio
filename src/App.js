@@ -20,6 +20,10 @@ function App() {
         mobile e web não só para empresas, mas também como uma forma de acompanhar meu processo evolutivo,
         à medida que vou estudando e adquirindo mais conhecimento na área, por isso esse portfólio estará em
         constante atualização tanto no aprimoramento dos projetos que já apresento aqui como no acréscimo de outros ao longo do tempo.
+        Também tive o cuidado de mantér a responsividade em todos os projetos.
+        <div style={{marginTop:'3%'}}/>
+        Contatos: <br/>&emsp;Tel: (71) 98470-7037 / 98850-0067<br/>&emsp;
+        Email: <a href='mailto:francadasilvaflamarion@gmail.com'>francadasilvaflamarion@gmail.com</a>
       </div>
       <div className='matrixContainer'>
 
