@@ -28,7 +28,7 @@ function App() {
       <div className='matrixContainer'>
 
         <div className="matrix">
-          <a href="https://e-commerce-p17g.onrender.com" target="_blank">E-commerce (frontend)</a>
+          <a href="https://e-commerce-p17g.onrender.com" target="_blank">E-commerce (fullstack)</a>
             <br/>
             <img src={EcommercePic} width="300"
             alt="imagem do app Ecommerce"/>
