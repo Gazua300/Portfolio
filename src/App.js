@@ -29,7 +29,7 @@ function App() {
             <img src={EcommercePic} width="300"
             alt="imagem do app Ecommerce"/>
           <div class="matrixTxt">
-            App que simula um pequeno marketplace, com filtragem de por valor e carrinho para adicionar os produtos.
+            App que simula um pequeno marketplace, com filtragem de busca por valor e nome. Além de carrinho para adicionar os produtos.
             <br/><br/>
             <a href="https://github.com/Gazua300/E-commerce" target="_blank">
               Respositório
@@ -92,8 +92,8 @@ function App() {
             <img src={Ifuture} width="300" height='400' 
             alt="imagem do app labebank"/>
           <div class="matrixTxt">
-            Aplicativo fictício que simula um sistema de solicitação e 
-            entrega alimentos para restaurantes cadastrados
+            Aplicativo que simula um sistema de solicitação e 
+            entrega de alimentos para reataurantes, pizzarias, churrascarias e etc.
             <br/><br/>
             <a href='https://play.google.com/store/apps/details?id=com.gazua300.ifuture' target='_blank'>
               Google play
