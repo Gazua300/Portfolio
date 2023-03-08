@@ -51,7 +51,7 @@ function App() {
             <a href="https://play.google.com/store/apps/details?id=com.gazua300.acheiservicos" target="_blank">
               Versão mobile no google play
             </a><br/>
-            <a href="https://github.com/Gazua300/achei_servicos-server" target="_blank">
+            <a href="https://github.com/Gazua300/achei-servicos_frontend" target="_blank">
               Repositório
             </a>
           </div>
