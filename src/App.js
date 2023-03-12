@@ -36,7 +36,11 @@ function App() {
             App que simula um pequeno marketplace, com filtragem de busca por valor e nome. Além de carrinho para adicionar os produtos.
             <br/><br/>
             <a href="https://github.com/Gazua300/E-commerce" target="_blank">
-              Respositório
+              Respositório Frontend
+            </a>
+            <br/>
+            <a href="https://github.com/Gazua300/e-commerce-server" target="_blank">
+              Respositório Backend
             </a>
           </div>
         </div>
@@ -52,8 +56,14 @@ function App() {
               Versão mobile no google play
             </a><br/>
             <a href="https://github.com/Gazua300/achei-servicos_frontend" target="_blank">
-              Repositório
-            </a>
+              Repositório Frontend
+            </a><br/>
+            <a href="https://github.com/Gazua300/achei_servicos-server" target="_blank">
+              Repositório Backend
+            </a><br/>
+            <a href="https://github.com/Gazua300/achei-servicos" target="_blank">
+              Repositório Mobile
+            </a>                        
           </div>
         </div>
 
@@ -68,8 +78,14 @@ function App() {
               Versão mobile no google play
             </a>
             <br/>
+            <a href="https://github.com/Gazua300/labebank_frontend" target="_blank">
+              Repositório Frontend
+            </a><br/>            
             <a href="https://github.com/Gazua300/labebank" target="_blank">
-              Repositório
+              Repositório Backend
+            </a><br/>            
+            <a href="https://github.com/Gazua300/labebank_mobile" target="_blank">
+              Repositório Mobile
             </a>
           </div>
         </div>
@@ -91,7 +107,7 @@ function App() {
         </div>
 
         <div className="matrix">
-          <a href="https://github.com/Gazua300/labefood_mobile" target="_blank">Ifuture (mobile)</a>
+          <a href="https://ifuture-eyeb.onrender.com/" target="_blank">Ifuture (frontend)</a>
             <br/>
             <img src={Ifuture} width="300" height='400' 
             alt="imagem do app labebank"/>
@@ -100,11 +116,13 @@ function App() {
             entrega de alimentos para reataurantes, pizzarias, churrascarias e etc.
             <br/><br/>
             <a href='https://play.google.com/store/apps/details?id=com.gazua300.ifuture' target='_blank'>
-              Google play
-            </a>
-            <br/>
+              Versão mobile no google play
+            </a><br/>
+            <a href="https://github.com/Gazua300/labefood" target="_blank">
+              Repositório Frontend
+            </a><br/>
             <a href="https://github.com/Gazua300/labefood_mobile" target="_blank">
-              Repositório
+              Repositório Mobile
             </a>
           </div>
         </div>
