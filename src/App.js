@@ -67,7 +67,7 @@ function App() {
           </div>
         </div>
 
-        <div className="matrix">
+        {/* <div className="matrix">
           <a href="https://labebank-frontend.vercel.app/" target="_blank">Fakebank (fullstack)</a>
             <br/>
             <img src={LabebankPic} width="300" alt="imagem do app labebank"/>
@@ -88,7 +88,7 @@ function App() {
               Repositório Mobile
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className="matrix">
           <a href="https://documenter.getpostman.com/view/11884929/Uz5KkEQM" target="_blank">Restrições de acesso (backend, API)</a>
