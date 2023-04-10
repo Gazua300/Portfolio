@@ -2,7 +2,7 @@ import './App.css'
 import EcommercePic from './img/Ecommerce.png'
 import ServicosPic from './img/achei_servicos.png'
 import LabebankPic from './img/labebank.png'
-import RestricoesPic from './img/Restricoes-de-acesso.png'
+import Gerenciador_pix from './img/gerenciador-pix.png'
 import Ifuture from './img/feed.jpeg'
 
 
@@ -91,16 +91,16 @@ function App() {
         </div> */}
 
         <div className="matrix">
-          <a href="https://documenter.getpostman.com/view/11884929/Uz5KkEQM" target="_blank">Restrições de acesso (backend, API)</a>
+          <a href="https://documenter.getpostman.com/view/11884929/2s93XsYmN8" target="_blank">Gerenciador de pix (backend, API)</a>
             <br/>
-            <img src={RestricoesPic} width="300"
+            <img src={Gerenciador_pix} width="300"
             alt=""/>
           <div class="matrixTxt">
-            API com endpoints para guardar informações pessoais, sobre educação e experiências profissionais
-            dos usuários. As informações tem acesso restrito através de um token que é gerado
-            ao criar a conta e quando é realizado o login.
+            API para gerenciamento e controle de cobranças via pix.
+            A API é mais uma demonstração do meu trabalho, portanto os endpoints e
+            resultados das requisições são para uma conta demonstrativa da Gerencianet.
             <br/><br/>
-          <a href="https://github.com/Gazua300/Restricoes-de-acesso" target="_blank">
+          <a href="https://github.com/Gazua300/gerencianet" target="_blank">
             Repositório
           </a>
           </div>
@@ -114,6 +114,8 @@ function App() {
           <div class="matrixTxt">
             Aplicativo que simula um sistema de solicitação e 
             entrega de alimentos para reataurantes, pizzarias, churrascarias e etc.
+            <br/>
+            Obs.: Caso haja problemas no acesso cole este link:<br/> https://ifuture-eyeb.onrender.com/
             <br/><br/>
             <a href='https://play.google.com/store/apps/details?id=com.gazua300.ifuture' target='_blank'>
               Versão mobile no google play
