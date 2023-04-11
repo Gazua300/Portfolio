@@ -1,13 +1,15 @@
 import './App.css'
 import EcommercePic from './img/Ecommerce.png'
 import ServicosPic from './img/achei_servicos.png'
-import LabebankPic from './img/labebank.png'
+// import LabebankPic from './img/labebank.png'
 import Gerenciador_pix from './img/gerenciador-pix.png'
 import Ifuture from './img/feed.jpeg'
 
 
 
+
 function App() {
+  
   return (
     <div>
       <h1>Portfólio</h1>
@@ -28,10 +30,11 @@ function App() {
       <div className='matrixContainer'>
 
         <div className="matrix">
-          <a href="https://e-commerce-p17g.onrender.com" target="_blank">E-commerce (fullstack)</a>
+          <a href="https://e-commerce-p17g.onrender.com" target="_blank">E-commerce (fullstack)
             <br/>
             <img src={EcommercePic} width="300"
             alt="imagem do app Ecommerce"/>
+          </a>
           <div class="matrixTxt">
             App que simula um pequeno marketplace, com filtragem de busca por valor e nome. Além de carrinho para adicionar os produtos.
             <br/><br/>
@@ -46,10 +49,11 @@ function App() {
         </div>
 
         <div className="matrix">
-          <a href="https://loja-de-servicos.onrender.com/" target="_blank">Loja de Serviços(fullstack)</a>
+          <a href="https://loja-de-servicos.onrender.com/" target="_blank">Loja de Serviços(fullstack)
             <br/>
             <img src={ServicosPic} width="300"
             alt="imagem do app loja de serviços"/>
+          </a>
           <div class="matrixTxt">
             Projeto fullstack de app para cadastramento e divulgação de serviços diversos:<br/><br/>
             <a href="https://play.google.com/store/apps/details?id=com.gazua300.acheiservicos" target="_blank">
@@ -91,26 +95,24 @@ function App() {
         </div> */}
 
         <div className="matrix">
-          <a href="https://documenter.getpostman.com/view/11884929/2s93XsYmN8" target="_blank">Gerenciador de pix (backend, API)</a>
+          <a href="https://documenter.getpostman.com/view/11884929/2s93XsYmN8" target="_blank">Gerenciador de pix (backend, API)
             <br/>
             <img src={Gerenciador_pix} width="300"
             alt=""/>
+          </a>
           <div class="matrixTxt">
             API para gerenciamento e controle de cobranças via pix.
             A API é mais uma demonstração do meu trabalho, portanto os endpoints e
-            resultados das requisições são para uma conta demonstrativa da Gerencianet.
-            <br/><br/>
-          <a href="https://github.com/Gazua300/gerencianet" target="_blank">
-            Repositório
-          </a>
+            resultados das requisições são para uma conta demonstrativa da Gerencianet.          
           </div>
         </div>
 
         <div className="matrix">
-          <a href="https://ifuture-eyeb.onrender.com/" target="_blank">Ifuture (frontend)</a>
+          <a href="https://ifuture-eyeb.onrender.com/" target="_blank">Ifuture (frontend)
             <br/>
             <img src={Ifuture} width="300" height='400' 
-            alt="imagem do app labebank"/>
+            alt="imagem do app labefood"/>
+          </a>
           <div class="matrixTxt">
             Aplicativo que simula um sistema de solicitação e 
             entrega de alimentos para reataurantes, pizzarias, churrascarias e etc.
