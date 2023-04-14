@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
 
+
 body{
   background-image: linear-gradient(to right, purple, #292929);
   color: whitesmoke;
@@ -28,12 +29,28 @@ h1{
   margin-top: 10vh;
   width: 300px;
   box-shadow: 3px 3px 6px black;
-  padding: 5px;
+  padding: 5px;  
 }
 
 .matrix:hover{
   border: 1px solid whitesmoke;
   cursor: pointer;
+  transform: rotateY(360deg);
+  transition: 1s;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%{
+    border-color: pink;
+  }
+  50%{
+    border-color: palevioletred;
+  }
+  100%{
+    border-color: purple;
+  }
+  
 }
 
 .matrixTxt{

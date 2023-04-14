@@ -1,7 +1,7 @@
 import './App.css'
 import EcommercePic from './img/Ecommerce.png'
 import ServicosPic from './img/achei_servicos.png'
-// import LabebankPic from './img/labebank.png'
+import LabebankPic from './img/labebank.png'
 import Gerenciador_pix from './img/gerenciador-pix.png'
 import Ifuture from './img/feed.jpeg'
 
@@ -71,10 +71,11 @@ function App() {
           </div>
         </div>
 
-        {/* <div className="matrix">
-          <a href="https://labebank-frontend.vercel.app/" target="_blank">Fakebank (fullstack)</a>
+        <div className="matrix">
+          <a href="https://fakebank.onrender.com/" target="_blank">Fakebank (fullstack)
             <br/>
             <img src={LabebankPic} width="300" alt="imagem do app labebank"/>
+          </a>
           <div class="matrixTxt">
             Aplicativo para operações bancárias. Simula as mais básicas operações como saldo, extrato,pagamentos e transfereências.
             <br/><br/>
@@ -92,7 +93,7 @@ function App() {
               Repositório Mobile
             </a>
           </div>
-        </div> */}
+        </div>
 
         <div className="matrix">
           <a href="https://documenter.getpostman.com/view/11884929/2s93XsYmN8" target="_blank">Gerenciador de pix (backend, API)
