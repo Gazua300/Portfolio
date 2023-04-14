@@ -35,7 +35,6 @@ h1{
 .matrix:hover{
   border: 1px solid whitesmoke;
   cursor: pointer;
-  transform: rotateY(360deg);
   transition: 1s;
   animation: pulse 1s infinite;
 }
