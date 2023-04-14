@@ -9,6 +9,25 @@ import Ifuture from './img/feed.jpeg'
 
 
 function App() {
+
+  const redirection = (link, id)=>{
+    const myElement = document.getElementById(id)
+
+    myElement.style.transition = 'transform 1.5s ease-in-out'
+    myElement.style.transform = 'perspective(100px) rotateY(360deg)'
+
+    const resetTransform = () => {
+      myElement.style.transition = 'none';
+      myElement.style.transform = 'none';
+      myElement.removeEventListener('transitionend', resetTransform);
+    };
+  
+    myElement.addEventListener('transitionend', resetTransform);
+
+    setTimeout(() => {
+      window.open(link, '_blank')
+    }, 1500);
+  }
   
   return (
     <div>
@@ -29,8 +48,8 @@ function App() {
       </div>
       <div className='matrixContainer'>
 
-        <div className="matrix">
-          <a href="https://e-commerce-p17g.onrender.com" target="_blank">E-commerce (fullstack)
+        <div className="matrix" id='e-commerce'>
+          <a onClick={()=> redirection('https://e-commerce-p17g.onrender.com', 'e-commerce')}>E-commerce (fullstack)
             <br/>
             <img src={EcommercePic} width="300"
             alt="imagem do app Ecommerce"/>
@@ -38,65 +57,65 @@ function App() {
           <div class="matrixTxt">
             App que simula um pequeno marketplace, com filtragem de busca por valor e nome. Além de carrinho para adicionar os produtos.
             <br/><br/>
-            <a href="https://github.com/Gazua300/E-commerce" target="_blank">
+            <a onClick={()=> redirection("https://github.com/Gazua300/E-commerce", 'e-commerce')}>
               Respositório Frontend
             </a>
             <br/>
-            <a href="https://github.com/Gazua300/e-commerce-server" target="_blank">
+            <a onClick={()=> redirection("https://github.com/Gazua300/e-commerce-server", 'e-commerce')}>
               Respositório Backend
             </a>
           </div>
         </div>
 
-        <div className="matrix">
-          <a href="https://loja-de-servicos.onrender.com/" target="_blank">Loja de Serviços(fullstack)
+        <div className="matrix" id='loja-de-servicos'>
+          <a onClick={()=> redirection("https://loja-de-servicos.onrender.com/", 'loja-de-servicos')}>Loja de Serviços(fullstack)
             <br/>
             <img src={ServicosPic} width="300"
             alt="imagem do app loja de serviços"/>
           </a>
           <div class="matrixTxt">
             Projeto fullstack de app para cadastramento e divulgação de serviços diversos:<br/><br/>
-            <a href="https://play.google.com/store/apps/details?id=com.gazua300.acheiservicos" target="_blank">
+            <a onClick={()=> redirection("https://play.google.com/store/apps/details?id=com.gazua300.acheiservicos", 'loja-de-servicos')}>
               Versão mobile no google play
             </a><br/>
-            <a href="https://github.com/Gazua300/achei-servicos_frontend" target="_blank">
+            <a onClick={()=> redirection("https://github.com/Gazua300/achei-servicos_frontend", 'loja-de-servicos')}>
               Repositório Frontend
             </a><br/>
-            <a href="https://github.com/Gazua300/achei_servicos-server" target="_blank">
+            <a onClick={()=> redirection("https://github.com/Gazua300/achei_servicos-server", 'loja-de-servicos')}>
               Repositório Backend
             </a><br/>
-            <a href="https://github.com/Gazua300/achei-servicos" target="_blank">
+            <a onClick={()=> redirection("https://github.com/Gazua300/achei-servicos", 'loja-de-servicos')}>
               Repositório Mobile
             </a>                        
           </div>
         </div>
 
-        <div className="matrix">
-          <a href="https://fakebank.onrender.com/" target="_blank">Fakebank (fullstack)
+        <div className="matrix" id='fakebank'>
+          <a onClick={()=> redirection("https://fakebank.onrender.com/", 'fakebank')}>Fakebank (fullstack)
             <br/>
             <img src={LabebankPic} width="300" alt="imagem do app labebank"/>
           </a>
           <div class="matrixTxt">
             Aplicativo para operações bancárias. Simula as mais básicas operações como saldo, extrato,pagamentos e transfereências.
             <br/><br/>
-            <a href='https://play.google.com/store/apps/details?id=com.gazua300.fakebank' target='_blank'>
+            <a onClick={()=> redirection('https://play.google.com/store/apps/details?id=com.gazua300.fakebank', 'fakebank')}>
               Versão mobile no google play
             </a>
             <br/>
-            <a href="https://github.com/Gazua300/labebank_frontend" target="_blank">
+            <a onClick={()=> redirection("https://github.com/Gazua300/labebank_frontend", 'fakebank')}>
               Repositório Frontend
             </a><br/>            
-            <a href="https://github.com/Gazua300/labebank" target="_blank">
+            <a onClick={()=> redirection("https://github.com/Gazua300/labebank", 'fakebank')}>
               Repositório Backend
             </a><br/>            
-            <a href="https://github.com/Gazua300/labebank_mobile" target="_blank">
+            <a onClick={()=> redirection("https://github.com/Gazua300/labebank_mobile", 'fakebank')}>
               Repositório Mobile
             </a>
           </div>
         </div>
 
-        <div className="matrix">
-          <a href="https://documenter.getpostman.com/view/11884929/2s93XsYmN8" target="_blank">Gerenciador de pix (backend, API)
+        <div className="matrix" id='pix-menager'>
+          <a onClick={()=> redirection("https://documenter.getpostman.com/view/11884929/2s93XsYmN8", 'pix-menager')} >Gerenciador de pix (backend, API)
             <br/>
             <img src={Gerenciador_pix} width="300"
             alt=""/>
@@ -108,8 +127,8 @@ function App() {
           </div>
         </div>
 
-        <div className="matrix">
-          <a href="https://ifuture-eyeb.onrender.com/" target="_blank">Ifuture (frontend)
+        <div className="matrix" id='ifuture'>
+          <a onClick={()=> redirection("https://ifuture-eyeb.onrender.com/", 'ifuture')}>Ifuture (frontend)
             <br/>
             <img src={Ifuture} width="300" height='400' 
             alt="imagem do app labefood"/>
@@ -120,13 +139,13 @@ function App() {
             <br/>
             Obs.: Caso haja problemas no acesso cole este link:<br/> https://ifuture-eyeb.onrender.com/
             <br/><br/>
-            <a href='https://play.google.com/store/apps/details?id=com.gazua300.ifuture' target='_blank'>
+            <a onClick={()=> redirection('https://play.google.com/store/apps/details?id=com.gazua300.ifuture', 'ifuture')}>
               Versão mobile no google play
             </a><br/>
-            <a href="https://github.com/Gazua300/labefood" target="_blank">
+            <a onClick={()=> redirection("https://github.com/Gazua300/labefood", 'ifuture')} >
               Repositório Frontend
             </a><br/>
-            <a href="https://github.com/Gazua300/labefood_mobile" target="_blank">
+            <a onClick={()=> redirection("https://github.com/Gazua300/labefood_mobile", 'ifuture')}>
               Repositório Mobile
             </a>
           </div>
